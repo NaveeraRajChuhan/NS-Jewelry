@@ -59,4 +59,41 @@ if(productContainer){
 
   const categoryProducts = products[category];
 
-  categoryProducts.forEach(item=>{
+  categoryProducts.forEach(item=>{ productContainer.innerHTML += `
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="${item.image}">
+        <h3 class="mt-3">${item.name}</h3>
+      </div>
+    </div>
+    `;
+
+  });
+}
+
+// search functionality
+const searchInput = document.getElementById('searchInput');
+
+if(searchInput){
+
+  searchInput.addEventListener('keyup', ()=>{
+
+    const value = searchInput.value.toLowerCase();
+
+    const cards = document.querySelectorAll('.jewelry-card');
+
+    cards.forEach(card=>{
+
+      const text = card.innerText.toLowerCase();
+
+      if(text.includes(value)){
+        card.parentElement.style.display = 'block';
+      }
+      else{
+        card.parentElement.style.display = 'none';
+      }
+
+    });
+
+  });
+}
