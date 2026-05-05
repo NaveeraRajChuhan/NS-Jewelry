@@ -38,6 +38,26 @@ const products = {
     {
         name:"Maple Leaf Necklace",
         image:"https://yellowchimes.com/cdn/shop/files/1737693751703_2.jpg?v=1742985614&width=713"
+    },
+    {
+        name:"short chain necklace",
+        image:"https://thegracepk.com/cdn/shop/files/3-Ana-Luisa-Jewelry-Necklaces-Pendant-Necklaces-Charm-Necklace-Tallulah-Gold.webp?v=1754397814&width=1080"
+    },
+    {
+        name:"Adjustable Cable Chain Necklace",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs1pnlYRPg3FZBoM5E03BEVvV9KeVIEOceEA&s"
+    },
+    {
+        name:"Lover Girl Necklace",
+        image:"https://evryjewels.com/cdn/shop/files/Lover-Girl-Necklace.jpg?crop=center&format=webp&height=600&v=1777389743&width=600"
+    },
+    {
+        name:"Stainless Gold Neck Chain",
+        image:"https://m.media-amazon.com/images/I/310omcTKz9L.jpg"
+    },
+    {
+        name:"Butterfly Necklace",
+        image:"https://i.pinimg.com/736x/4a/25/d7/4a25d7621184338a7cf615e2bd08b3aa.jpg"
     }
   ],
 
