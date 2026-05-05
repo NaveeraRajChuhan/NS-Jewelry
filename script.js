@@ -9,28 +9,35 @@ const products = {
   Ring:[
     {
       name:'Diamond Ring',
-      image:'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1200&auto=format&fit=crop'
+      image:"https://zevrr.com/cdn/shop/files/Silver_ring_for_women_and_girl_silver_ring_6.webp?v=1722344969"
+    //   image:'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1200&auto=format&fit=crop'
     },
     {
       name:'Luxury Ring',
-      image:'https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?q=80&w=1200&auto=format&fit=crop'
+      image:"https://silverstones.pk/cdn/shop/files/14.png?v=1765906706&width=1000"
+    //   image:'https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?q=80&w=1200&auto=format&fit=crop'
     }
   ],
 
   Necklace:[
     {
       name:'Golden Necklace',
-      image:'https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1200&auto=format&fit=crop'
+      image:"https://thegracepk.com/cdn/shop/collections/IMG_6223.jpg?v=1709038278&width=2048"
+    //   image:'https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1200&auto=format&fit=crop'
     }
   ],
 
   Bracelet:[
     {
       name:'Silver Bracelet',
-      image:'https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=80&w=1200&auto=format&fit=crop'
+      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1Ubz3x361zcYERiEVny1cza96cw5GgdQww&s"
+      
+    //   image:'images./bracelet3.webp'
     }
   ],
 
+
+  
   Earring:[
     {
       name:'Pearl Earring',
